@@ -1,0 +1,48 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    height: 66px;
+    position: sticky;
+    background-color: white;
+    top: 0;
+}
+
+nav{
+    font-size: 14px;
+    padding-top: 14px;
+}
+.logo{
+    width: 32px;
+    height: 32px;
+}
+
+.container{
+    padding: 0vw 10vw;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding-left: 12px;
+    padding-top: 0px;
+}
+
+.section1{
+    background-color: #f2f2f2;
+    height: 122vh;
+}
+
+.search-bar{
+    width: 30vw;
+    height: 2em;
+    padding: 4px 17px;
+    border: 3px solid white;
+    background: #f2f2f2;
+}
+
+
