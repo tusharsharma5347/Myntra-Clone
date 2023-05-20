@@ -34,15 +34,42 @@ nav ul li{
 
 .section1{
     background-color: #f2f2f2;
-    height: 122vh;
+    
 }
 
 .search-bar{
     width: 30vw;
     height: 2em;
-    padding: 4px 17px;
-    border: 3px solid white;
+    padding: 7px 17px;
+    border: 0.5px solid white;
     background: #f2f2f2;
+    border-radius: 3px;
+}
+
+.banner-1{
+    width: 80vw;
+    margin-top: 25px;
+}
+
+.banner-2{
+    margin-top: 0px;
+    width: 100vw;
+}
+
+.banner-3{
+    height: min-content;
+    margin-top: 0px;
+    margin-left: 5px;
+    width: 20vw;
+    flex-wrap: wrap;
+}
+.banner-3{
+    height: min-content;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 20vw;
+    flex-wrap: wrap;
 }
 
 
