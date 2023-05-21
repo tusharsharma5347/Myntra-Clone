@@ -13,6 +13,13 @@ header{
     top: 0;
 }
 
+.profile{
+    display: flex;
+    margin: 12px;
+ }
+
+
+
 nav{
     font-size: 14px;
     padding-top: 14px;
@@ -23,6 +30,10 @@ nav{
 }
 
 .container{
+    padding: 0vw 10vw;
+}
+
+.containerHeader{
     padding: 0vw 10vw;
 }
 
@@ -38,12 +49,13 @@ nav ul li{
 }
 
 .search-bar{
-    width: 30vw;
+    width: 25vw;
     height: 2em;
-    padding: 7px 17px;
+    padding: 7px 10px;
     border: 0.5px solid white;
     background: #f2f2f2;
     border-radius: 3px;
+    margin-bottom: auto;
 }
 
 .banner-1{
@@ -71,5 +83,36 @@ nav ul li{
     width: 20vw;
     flex-wrap: wrap;
 }
+
+@media (max-width: 700px){
+    header {
+       height: 122px;
+    } 
+   
+    nav ul li {
+       list-style: none;
+       padding: 0px 4px;
+       font-size: 10px;
+    }
+    
+    nav{
+      flex-direction: column;
+      align-items: center; 
+    }
+   
+    .right-nav{
+       flex-direction: column;
+       font-size: 10px;
+    }
+   
+    .profile{
+       display: flex;
+       margin: 12px;
+    }
+   
+    .containerHeader{
+       padding: 0 2vw;
+    }
+   }
 
 
