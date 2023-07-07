@@ -84,6 +84,67 @@ nav ul li{
     flex-wrap: wrap;
 }
 
+.contact{
+    background-color: red;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    background-color: #f2f2f2;
+    color: grey;
+    font-weight: lighter;
+
+}
+.contact div {
+    margin: 0px 5px 0px 5px;
+
+}
+.contact ul{
+    list-style-type: none;
+    margin: 0px 5px 0px 5px;
+    font-size: 12px;
+}
+
+.contact li{
+    line-height: 1.7em;
+}
+.foot-head{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logo-column{
+    width: 140px;
+    margin-top: 15px;
+}
+
+.socials{
+    width: 20px;
+    height: 22px;
+    position: relative;
+    top: 1px;
+    margin-right: 10px;
+
+}
+
+.logo-f{
+    width: 48px;
+    height: 40px;
+
+}
+
+.align-1{
+    width: 175px;
+    height: 70px;
+    margin-top: 25px;
+}
+
+.align-2{
+    width: 170px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+
 @media (max-width: 700px){
     header {
        height: 122px;

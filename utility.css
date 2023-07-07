@@ -29,6 +29,12 @@
     margin-right: 12px;
 }
 
+.black{
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
 .footer{
     margin: 12px 0px;
     padding: 23px;
@@ -37,6 +43,11 @@
     color: grey;
     font-weight: lighter;
 }
+
+.margin-18{
+    margin-top: 18px;
+}
+
 
 @media (max-width: 700px){
     .flex2{
